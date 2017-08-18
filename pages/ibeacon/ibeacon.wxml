@@ -1,0 +1,14 @@
+<view class="content">
+     <view style="width: 750rpx;line-height: 50rpx;height: 50rpx;text-align: center;padding: 20rpx;">蓝牙</view>
+     <view style="padding: 20rpx;display: flex;flex-direction: column;">
+       <button class="btnstyle" bindtap="openBluTap">打开蓝牙适配器</button>
+       <button class="btnstyle" bindtap="closeBluTap">关闭蓝牙适配器</button>
+       <button class="btnstyle" bindtap="localityBluTap">获取本机蓝牙适配器状态</button>
+       <button class="btnstyle" bindtap="startSearchBluTap">开始搜寻附近的蓝牙外围设备</button>
+       <button class="btnstyle" bindtap="stopSearchBluTap">停止搜寻附近的蓝牙外围设备</button>
+       <button class="btnstyle" bindtap="getBluetoothDevicesBluTap">获取所有已发现的蓝牙设备</button>
+       <button class="btnstyle" bindtap="location">Mac定位</button>
+       <button class="btnstyle" bindtap="iBeaconlocation">iBeacon定位</button>
+     </view>
+     <view>{{result}}</view>
+</view>

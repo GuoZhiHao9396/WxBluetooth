@@ -1,0 +1,4 @@
+.btnstyle{
+	width:600rpx;
+	margin-bottom: 20rpx;
+}
